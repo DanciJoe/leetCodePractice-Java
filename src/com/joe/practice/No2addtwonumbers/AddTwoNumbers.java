@@ -1,4 +1,4 @@
-package com.joe.practice.addtwonumbers;
+package com.joe.practice.No2addtwonumbers;
 
 /**
  * @author : Joe

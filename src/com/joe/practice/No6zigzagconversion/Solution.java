@@ -1,4 +1,4 @@
-package com.joe.practice.zigzagconversion;
+package com.joe.practice.No6zigzagconversion;
 
 import java.util.ArrayList;
 import java.util.List;

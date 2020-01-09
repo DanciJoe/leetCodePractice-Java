@@ -1,4 +1,4 @@
-package com.joe.practice.longestpalindrome;
+package com.joe.practice.No5longestpalindrome;
 
 /**
  * @author : Joe

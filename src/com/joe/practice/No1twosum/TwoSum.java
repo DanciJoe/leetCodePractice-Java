@@ -1,4 +1,4 @@
-package com.joe.practice.twosum;
+package com.joe.practice.No1twosum;
 
 import java.util.Arrays;
 import java.util.HashMap;

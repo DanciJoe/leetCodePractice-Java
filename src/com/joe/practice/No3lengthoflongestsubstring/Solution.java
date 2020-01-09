@@ -1,4 +1,4 @@
-package com.joe.practice.lengthoflongestsubstring;
+package com.joe.practice.No3lengthoflongestsubstring;
 
 import java.util.ArrayList;
 import java.util.List;

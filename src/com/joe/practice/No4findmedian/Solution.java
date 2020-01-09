@@ -1,4 +1,4 @@
-package com.joe.practice.findmedian;
+package com.joe.practice.No4findmedian;
 
 import java.util.Arrays;
 
