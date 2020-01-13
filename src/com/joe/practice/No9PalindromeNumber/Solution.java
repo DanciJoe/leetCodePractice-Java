@@ -30,15 +30,16 @@ public class Solution {
             return false;
         }
         int revertNum = 0;
-        while (x > revertNum) {
-            revertNum = revertNum * 10 + x / 10;
-            x /= 10;
+        int num = x;
+        while (num != 0) {
+            revertNum = revertNum * 10 + num % 10;
+            num /= 10;
         }
         return x == revertNum || x == revertNum / 10;
     }
 
     public static void main(String[] args) {
-        int x = 12321;
+        int x = 123;
         System.out.println(isPalindrome(x));
     }
 }
