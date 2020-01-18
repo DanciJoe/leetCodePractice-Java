@@ -10,6 +10,11 @@ import java.util.Map;
  */
 public class Solution {
 
+    /**
+     * 罗马数字转换成整数，时间复杂度为O（n）
+     * @param s
+     * @return
+     */
     private static int romanToInt(String s) {
         Map<String, Integer> map = new HashMap<>();
         map.put("I", 1);
@@ -27,6 +32,7 @@ public class Solution {
         map.put("M", 1000);
 
         int res = 0;
+        //循环遍历字符串，优先匹配两位字符串，如果没有则匹配一位字符串
         for (int i = 0; i < s.length(); ) {
             if (i + 1 < s.length() && map.containsKey(s.substring(i, i + 2))) {
                 res += map.get(s.substring(i, i + 2));
